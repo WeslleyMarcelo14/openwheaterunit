@@ -9,7 +9,7 @@ async function getTemp(cidade){
         }
         const data = await response.json()
         // console.log(data)
-        return data.name        
+        return data 
     } catch(error) {
         console.log("erro ao buscar dados", error)
         return null
@@ -18,4 +18,4 @@ async function getTemp(cidade){
 
 module.exports = {getTemp};
 
-getTemp()
+getTemp("Avaré")
