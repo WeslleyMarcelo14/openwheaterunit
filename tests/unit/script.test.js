@@ -1,4 +1,4 @@
-const {getTemp} = require("./script.js")
+const {getTemp} = require("../../src/script.js")
 
 describe('Fazendo teste na api openwheater', () => {
   describe('Teste quando a cidade é Avaré', () => {
